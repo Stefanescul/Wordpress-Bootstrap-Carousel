@@ -1,7 +1,7 @@
 <?php $args = array(
                  'post_type' => 'post',
-                'posts_per_page' => -1,
-                  
+                 'posts_per_page' => -1,
+                 'tag' => 'slide', /*configure the tag as you want it with 'tag' => 'yout-tag-go-here'*/
                 
              );
              $slider = new WP_Query($args);
